@@ -1,0 +1,44 @@
+﻿[
+  {
+    "mapFeature": "all",
+    "options": "geometry",
+    "paint": {
+      "color": "#114D00"
+    }
+  },
+  {
+    "mapFeature": "all",
+    "options": "labels.text.stroke",
+    "paint": {
+      "color": "#114D00"
+    }
+  },
+  {
+    "mapFeature": "administrative",
+    "options": "labels.text.fill",
+    "paint": {
+      "color": "#BCBCBC"
+    }
+  },
+  {
+    "mapFeature": "administrative.country",
+    "options": "geometry",
+    "paint": {
+      "color": "#9D9D9D"
+    }
+  },
+  {
+    "mapFeature": "water",
+    "options": "geometry",
+    "paint": {
+      "color": "#73B2B9"
+    }
+  },
+  {
+    "mapFeature": "water",
+    "options": "labels.text.fill",
+    "paint": {
+      "color": "#73B2B9"
+    }
+  }
+]

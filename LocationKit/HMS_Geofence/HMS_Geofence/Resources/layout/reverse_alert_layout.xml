@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+     <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1" >
+        <TextView
+             android:textStyle="bold"
+            android:text="Address: "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView1" />
+    <TextView
+        android:layout_width="match_parent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:hint="-"
+        android:scrollbars="vertical"
+        android:scrollHorizontally="false"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtAddress" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2" >
+        <TextView
+             android:textStyle="bold"
+            android:text="Radius: "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView1" />
+     <TextView
+        android:layout_width="match_parent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:hint="-"
+        android:scrollbars="vertical"
+        android:scrollHorizontally="false"
+        android:layout_height="match_parent"
+        android:id="@+id/txtRadius" />
+    </LinearLayout>
+    <TextView
+        android:text="Select Conversion Type"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+    <RadioGroup
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radio_group">
+         <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter"
+            android:id="@+id/radio_enter" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exit"
+            android:id="@+id/radio_exit" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stay"
+            android:id="@+id/radio_dwell" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Never Expire"
+            android:id="@+id/radio_never_expire" />
+    </RadioGroup>
+</LinearLayout>
