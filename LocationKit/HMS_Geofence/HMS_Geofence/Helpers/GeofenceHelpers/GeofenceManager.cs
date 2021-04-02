@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using Android.App;
 using Android.Content;
-using Com.Huawei.Hmf.Tasks;
-using Com.Huawei.Hms.Location;
+using Huawei.Hmf.Tasks;
+using Huawei.Hms.Location;
 using HMS_Geofence.Models;
 
 namespace HMS_Geofence.Helpers

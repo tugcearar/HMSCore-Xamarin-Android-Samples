@@ -9,9 +9,9 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using Com.Huawei.Hmf.Tasks;
-using Com.Huawei.Hms.Common;
-using Com.Huawei.Hms.Location;
+using Huawei.Hmf.Tasks;
+using Huawei.Hms.Common;
+using Huawei.Hms.Location;
 using HMS_Geofence.Models;
 
 namespace HMS_Geofence.Helpers

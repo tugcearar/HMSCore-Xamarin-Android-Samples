@@ -1,4 +1,4 @@
-﻿using Com.Huawei.Hms.Location;
+﻿using Huawei.Hms.Location;
 
 namespace HMS_FusedLocationProvider.Activities
 {

@@ -11,11 +11,11 @@ using Android;
 using Android.Content.PM;
 using Android.Support.V4.App;
 using System;
-using Com.Huawei.Hms.Location;
+using Huawei.Hms.Location;
 using HMS_FusedLocationProvider.Helpers;
-using Com.Huawei.Hmf.Tasks;
+using Huawei.Hmf.Tasks;
 using Android.Support.Design.Widget;
-using Task = Com.Huawei.Hmf.Tasks.Task;
+using Task = Huawei.Hmf.Tasks.Task;
 
 namespace HMS_FusedLocationProvider
 {
@@ -127,7 +127,7 @@ namespace HMS_FusedLocationProvider
         }
         private void IsLocationAvailable()
         {
-            Com.Huawei.Hmf.Tasks.Task locAvailability = fusedLocationProviderClient.LocationAvailability;
+            Huawei.Hmf.Tasks.Task locAvailability = fusedLocationProviderClient.LocationAvailability;
             locAvailability.AddOnSuccessListener(this)
                 .AddOnFailureListener(this);
         }

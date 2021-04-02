@@ -10,7 +10,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using Com.Huawei.Agconnect.Config;
+using Huawei.Agconnect.Config;
 
 namespace HMS_Geofence.Utilities
 {

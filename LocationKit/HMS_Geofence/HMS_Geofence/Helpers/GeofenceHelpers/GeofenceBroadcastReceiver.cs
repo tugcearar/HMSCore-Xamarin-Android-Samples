@@ -1,15 +1,15 @@
 ﻿using Android.App;
 using Android.Content;
 using Android.Widget;
-using Com.Huawei.Hms.Location;
+using Huawei.Hms.Location;
 
 namespace HMS_Geofence.Helpers
 {
     [BroadcastReceiver(Enabled = true)]
-    [IntentFilter(new[] { "com.huawei.hms.geofence.ACTION_PROCESS_ACTIVITY" })]
+    [IntentFilter(new[] { "Huawei.hms.geofence.ACTION_PROCESS_ACTIVITY" })]
     class GeofenceBroadcastReceiver : BroadcastReceiver
     {
-        public static readonly string ActionGeofence = "com.huawei.hms.geofence.ACTION_PROCESS_ACTIVITY";
+        public static readonly string ActionGeofence = "Huawei.hms.geofence.ACTION_PROCESS_ACTIVITY";
         public override void OnReceive(Context context, Intent intent)
         {
             if (intent != null)

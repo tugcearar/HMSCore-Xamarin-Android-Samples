@@ -9,15 +9,15 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using Com.Huawei.Hms.Location;
+using Huawei.Hms.Location;
 
 namespace HMS_ActivityIdentification.Helpers
 {
     [BroadcastReceiver(Enabled = true)]
-    [IntentFilter(new[] { "com.huawei.hms.activityId.ACTION_PROCESS_ACTIVITY" })]
+    [IntentFilter(new[] { "Huawei.hms.activityId.ACTION_PROCESS_ACTIVITY" })]
     public class ActivityIdBroadcastReceiver : BroadcastReceiver
     {
-        public static readonly string ActionProcessActivity = "com.huawei.hms.location.ACTION_PROCESS_ACTIVITY";
+        public static readonly string ActionProcessActivity = "Huawei.hms.location.ACTION_PROCESS_ACTIVITY";
         public override void OnReceive(Context context, Intent intent)
         {
             if (intent != null)

@@ -1,6 +1,6 @@
 ﻿using System.IO;
 using Android.Content;
-using Com.Huawei.Agconnect.Config;
+using Huawei.Agconnect.Config;
 
 namespace HMS_HMapStyle.Utilities
 {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-using Com.Huawei.Hms.Location;
+using Huawei.Hms.Location;
 
 namespace HMS_ActivityIdentification.Helpers
 {

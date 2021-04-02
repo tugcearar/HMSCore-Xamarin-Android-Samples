@@ -1,10 +1,10 @@
 ﻿using Android.App;
 using Android.Views;
 using Android.Widget;
-using Com.Huawei.Hms.Location;
-using Com.Huawei.Hms.Maps;
-using Com.Huawei.Hms.Maps.Model;
-using Com.Huawei.Hms.Site.Api.Model;
+using Huawei.Hms.Location;
+using Huawei.Hms.Maps;
+using Huawei.Hms.Maps.Model;
+using Huawei.Hms.Site.Api.Model;
 using HMS_Geofence.Models;
 using System.Linq;
 

@@ -1,11 +1,11 @@
 ﻿using Android.App;
 using Android.OS;
 using Android.Support.V7.App;
-using Com.Huawei.Hms.Maps;
-using Com.Huawei.Agconnect.Config;
+using Huawei.Hms.Maps;
+using Huawei.Agconnect.Config;
 using Android.Support.Design.Widget;
 using Android.Views;
-using Com.Huawei.Hms.Maps.Model;
+using Huawei.Hms.Maps.Model;
 using Android.Support.V4.App;
 using Android.Widget;
 using System;

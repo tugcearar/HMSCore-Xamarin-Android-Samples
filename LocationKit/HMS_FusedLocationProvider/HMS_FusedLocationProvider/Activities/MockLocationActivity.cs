@@ -10,9 +10,9 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using Com.Huawei.Hms.Common;
-using Com.Huawei.Hms.Location;
-using Com.Huawei.Hms.Support.Api.Entity.Location.Mock;
+using Huawei.Hms.Common;
+using Huawei.Hms.Location;
+using Huawei.Hms.Support.Api.Entity.Location.Mock;
 using HMS_FusedLocationProvider.Helpers.MockLocation;
 
 namespace HMS_FusedLocationProvider.Activities

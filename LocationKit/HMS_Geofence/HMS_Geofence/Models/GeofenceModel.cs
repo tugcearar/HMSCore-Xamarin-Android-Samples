@@ -1,4 +1,4 @@
-﻿using Com.Huawei.Hms.Maps.Model;
+﻿using Huawei.Hms.Maps.Model;
 using HMS_Geofence.Helpers;
 using System.Collections.Generic;
 

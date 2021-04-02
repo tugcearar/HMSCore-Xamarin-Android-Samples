@@ -12,8 +12,8 @@ using Android.Support.V4.Content;
 using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
-using Com.Huawei.Hmf.Tasks;
-using Com.Huawei.Hms.Location;
+using Huawei.Hmf.Tasks;
+using Huawei.Hms.Location;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -110,12 +110,12 @@ namespace HMS_ActivityIdentification
         {
             if (Build.VERSION.SdkInt <= BuildVersionCodes.P)
             {
-                if (ContextCompat.CheckSelfPermission(this, "com.huawei.hms.permission.ACTIVITY_RECOGNITION") != (int)Permission.Granted)
+                if (ContextCompat.CheckSelfPermission(this, "Huawei.hms.permission.ACTIVITY_RECOGNITION") != (int)Permission.Granted)
                 {
                     ActivityCompat.RequestPermissions(this,
                         new String[]
                         {
-                       "com.huawei.hms.permission.ACTIVITY_RECOGNITION"},
+                       "Huawei.hms.permission.ACTIVITY_RECOGNITION"},
                         1);
                 }
                 else

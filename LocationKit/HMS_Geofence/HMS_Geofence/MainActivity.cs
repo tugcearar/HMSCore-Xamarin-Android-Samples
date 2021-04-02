@@ -15,11 +15,12 @@ using HMS_Geofence.Models;
 using System.Collections.Generic;
 using AlertDialog = Android.Support.V7.App.AlertDialog;
 using Android.Views;
-using Com.Huawei.Hms.Maps;
-using Com.Huawei.Hms.Maps.Model;
-using Com.Huawei.Agconnect.Config;
-using Com.Huawei.Hms.Location;
-using Com.Huawei.Hmf.Tasks;
+using Huawei.Hms.Maps;
+using Huawei.Hms.Maps.Model;
+using Huawei.Agconnect.Config;
+using Huawei.Hms.Location;
+using Huawei.Hmf.Tasks;
+using Google.Android.Material.Snackbar;
 
 namespace HMS_Geofence
 {
@@ -180,7 +181,7 @@ namespace HMS_Geofence
 
             //DrawCircleOnMap(selectedCoordinates);
         }
-        internal void SetSearchResultOnMap(IList<Com.Huawei.Hms.Site.Api.Model.Site> sites)
+        internal void SetSearchResultOnMap(IList<Huawei.Hms.Site.Api.Model.Site> sites)
         {
             hMap.Clear();
             if (searchMarkers != null && searchMarkers.Count > 0)

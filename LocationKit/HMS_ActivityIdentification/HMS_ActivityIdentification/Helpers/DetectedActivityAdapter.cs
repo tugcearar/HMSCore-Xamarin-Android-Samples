@@ -4,7 +4,7 @@ using Android.App;
 using Android.Graphics;
 using Android.Views;
 using Android.Widget;
-using Com.Huawei.Hms.Location;
+using Huawei.Hms.Location;
 using Java.Sql;
 
 namespace HMS_ActivityIdentification.Helpers

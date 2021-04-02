@@ -10,7 +10,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using Com.Huawei.Hms.Location;
+using Huawei.Hms.Location;
 
 namespace HMS_FusedLocationProvider.Helpers
 {

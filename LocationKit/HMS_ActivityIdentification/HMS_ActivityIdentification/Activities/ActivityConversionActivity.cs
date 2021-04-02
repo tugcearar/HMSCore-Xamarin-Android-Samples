@@ -6,8 +6,8 @@ using Android.App;
 using Android.Content;
 using Android.OS;
 using Android.Widget;
-using Com.Huawei.Hmf.Tasks;
-using Com.Huawei.Hms.Location;
+using Huawei.Hmf.Tasks;
+using Huawei.Hms.Location;
 
 namespace HMS_ActivityIdentification.Activities
 {

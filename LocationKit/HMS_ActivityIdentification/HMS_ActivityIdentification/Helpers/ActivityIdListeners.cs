@@ -9,7 +9,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using Com.Huawei.Hmf.Tasks;
+using Huawei.Hmf.Tasks;
 
 namespace HMS_ActivityIdentification.Helpers
 {

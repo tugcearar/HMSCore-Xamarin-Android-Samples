@@ -1,8 +1,8 @@
 ﻿using Android.Locations;
 using Android.Widget;
-using Com.Huawei.Hmf.Tasks;
-using Com.Huawei.Hms.Location;
-using Com.Huawei.Hms.Maps.Model;
+using Huawei.Hmf.Tasks;
+using Huawei.Hms.Location;
+using Huawei.Hms.Maps.Model;
 using System;
 
 namespace HMS_Geofence.Helpers

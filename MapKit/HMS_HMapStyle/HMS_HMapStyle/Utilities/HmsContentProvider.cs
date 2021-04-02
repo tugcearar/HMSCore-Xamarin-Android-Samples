@@ -1,7 +1,7 @@
 ﻿using System;
 using Android.Content;
 using Android.Database;
-using Com.Huawei.Agconnect.Config;
+using Huawei.Agconnect.Config;
 
 namespace HMS_HMapStyle.Utilities
 {
