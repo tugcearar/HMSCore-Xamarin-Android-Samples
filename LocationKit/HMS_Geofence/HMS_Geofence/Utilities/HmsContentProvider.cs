@@ -14,7 +14,7 @@ using Huawei.Agconnect.Config;
 
 namespace HMS_Geofence.Utilities
 {
-    [ContentProvider(new string[] { "com.hmssample.HmsContentProvider" })]
+    [ContentProvider(new string[] { "com.hmssample.geofence.HmsContentProvider" })]
     class HmsContentProvider : ContentProvider
     {
         public override int Delete(Android.Net.Uri uri, string selection, string[] selectionArgs)

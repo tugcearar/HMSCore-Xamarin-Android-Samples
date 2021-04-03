@@ -132,7 +132,7 @@ namespace HMS_Geofence
                     if (ContextCompat.CheckSelfPermission(this, item) == Permission.Denied)
                     {
                         if (ActivityCompat.ShouldShowRequestPermissionRationale(this, permissions[0]) || ActivityCompat.ShouldShowRequestPermissionRationale(this, permissions[1]))
-                            Snackbar.Make(FindViewById<RelativeLayout>(Resource.Id.mainLayout), "You need to grant permission to use location services.", Snackbar.LengthLong).SetAction("Ask again", v => RequestPermissions()).Show();
+                            Android.Support.Design.Widget.Snackbar.Make(FindViewById<RelativeLayout>(Resource.Id.mainLayout), "You need to grant permission to use location services.", Android.Support.Design.Widget.Snackbar.LengthLong).SetAction("Ask again", v => RequestPermissions()).Show();
                         else
                             Toast.MakeText(this, "You need to grant location permissions in settings.", ToastLength.Long).Show();
                     }

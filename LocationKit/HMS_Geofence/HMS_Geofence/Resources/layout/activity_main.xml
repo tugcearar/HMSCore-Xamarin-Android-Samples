@@ -9,7 +9,7 @@
     android:layout_height="match_parent">
     <fragment
         android:id="@+id/mapfragment"
-        class="Huawei.hms.maps.MapFragment"
+        class="com.huawei.hms.maps.MapFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
